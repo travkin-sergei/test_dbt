@@ -5,6 +5,7 @@ Welcome to your new dbt project!
 Try running the following commands:
 - dbt run
 - dbt test
+- dbt dosc gererate
 
 
 ### Resources:
@@ -15,3 +16,21 @@ Try running the following commands:
 - Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
 
 # Обучение DBT
+
+Активация виртуальной среды.
+```bash
+.venv\\scripts\\activate   
+```
+Переход в папку проекта
+```bash
+cd test_dbt
+```
+
+Генерация документации
+```bash
+dbt docs generate
+```
+Публикация документации
+```bash
+dbt docs serve
+```
