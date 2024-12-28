@@ -1,7 +1,0 @@
-sources:
-  - name: demo_src
-    schema: demo_src
-    tables:
-      - name: aircrafts
-      - name: airports
-      - name: seats
